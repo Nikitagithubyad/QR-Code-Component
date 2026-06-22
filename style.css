@@ -1,0 +1,57 @@
+/* ------------------------ GLOBAL STYLES ------------------------ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit' , sans-serif;
+    font-size: 15px;
+    background-color: #d5e1ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #1f314f;
+    text-align: center;
+}
+
+p{
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #68778d;
+    text-align: center;
+}
+
+/* ------------------------ CLASSES ------------------------ */
+
+.QR-component{
+    background-color: #ffffff;
+    width: 320px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;  
+}
+
+.QR-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.QR-text{
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
